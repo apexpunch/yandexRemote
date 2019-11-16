@@ -2,11 +2,11 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
 import org.junit.Test;
 
-public class GettingStarted {
+public class DeprecatedGettingStarted {
     @Test
     public void testGoogleSearch() throws InterruptedException {
         // Optional. If not specified, WebDriver searches the PATH for chromedriver.
-        System.setProperty("webdriver.chrome.driver", "/chromeDriver/chromedriver.exe");
+
 
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.market.yandex.ru/");

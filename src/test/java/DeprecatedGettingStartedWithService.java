@@ -4,7 +4,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.remote.*;
 
-public class GettingStartedWithService {
+public class DeprecatedGettingStartedWithService {
 
     private static ChromeDriverService service;
     private WebDriver driver;
