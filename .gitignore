@@ -1,3 +1,5 @@
 /yandex.iml
 /target/
 /.idea/
+/src/test/java/DeprecatedGettingStarted.java
+/src/test/java/DeprecatedGettingStartedWithService.java

@@ -1,3 +1,4 @@
+import org.junit.After;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
 import org.junit.Test;
@@ -26,5 +27,10 @@ public class BasePage {
     public void gotoUrl (String inputUrl){
         getDriver().get(inputUrl);
     }
+
+@After
+public void closeBrowser(){
+    this.driver.quit();
+}
 
 }

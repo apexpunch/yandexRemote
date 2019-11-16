@@ -1,3 +1,8 @@
+import org.junit.After;
+import org.junit.Test;
+import org.junit.After;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.*;
 import org.junit.Test;
 
 public class YandexTest extends BasePage {
@@ -8,4 +13,9 @@ public class YandexTest extends BasePage {
         Thread.sleep(5000);  // Let the user actually see something!
 
     }
+
+
+
+
+
 }
