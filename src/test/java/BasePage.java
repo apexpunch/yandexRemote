@@ -14,7 +14,7 @@ public class BasePage {
     public void createDriver(){
         if (driver == null)
         {
-            System.setProperty("webdriver.chrome.driver", "/chromeDriver/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\DEAD4X\\Desktop\\Workspace\\Petruseva\\resources\\webdrivers\\chromedriver.exe");
             driver = new ChromeDriver();
         }
     }
